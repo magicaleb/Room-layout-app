@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Room Layout Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>Room Layout Planner</h1>
+    
+    <!-- Toolbar / Buttons -->
+    <div id="toolbar">
+      <button onclick="addFurniture('Chair')">Add Chair</button>
+      <button onclick="addFurniture('Table')">Add Table</button>
+      <button onclick="addFurniture('Bed')">Add Bed</button>
+      <button onclick="toggleGridSnap()">Toggle Grid Snap</button>
+      <button onclick="saveLayout()">Save Layout</button>
+      <button onclick="loadLayout()">Load Layout</button>
+    </div>
+
+    <!-- Canvas for the room -->
+    <canvas id="roomCanvas" width="800" height="600"></canvas>
+
+    <!-- Status or debug info if needed -->
+    <div id="status"></div>
+  </div>
+
+  <!-- Link to the JavaScript code -->
+  <script src="script.js"></script>
+</body>
+</html>
