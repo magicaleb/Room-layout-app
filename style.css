@@ -1,0 +1,43 @@
+/* Basic page resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+}
+
+/* Main container */
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 1rem;
+}
+
+/* Toolbar (buttons) */
+#toolbar {
+  margin-bottom: 1rem;
+}
+
+/* Canvas styling */
+#roomCanvas {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Optional status area */
+#status {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
